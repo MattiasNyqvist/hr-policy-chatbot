@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#6366f1"
-backgroundColor = "#0b0e14"
-secondaryBackgroundColor = "#1a1f2e"
-textColor = "#e2e8f0"
+primaryColor = "#8a9cd6ff" # Exempel på accentfärg
+backgroundColor = "#0E1117" # Den mörka bakgrunden
+secondaryBackgroundColor = "#262730" # Ändra denna till en ljusare nyans för mer kontrast
+textColor = "#FAFAFA"
 font = "sans serif"

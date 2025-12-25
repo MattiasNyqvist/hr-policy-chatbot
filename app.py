@@ -159,6 +159,12 @@ language = st.sidebar.radio(
 
 st.session_state.language = language
 
+# Footer (LÄGG TILL DETTA)
+st.sidebar.markdown("---")
+st.sidebar.markdown(f"**Version:** {__version__}")
+st.sidebar.caption(f"© 2025 {__author__}")
+st.sidebar.caption("MIT License")
+
 # Main chat interface
 if doc_count == 0:
     st.info("Upload HR policy documents to get started. The chatbot will answer questions based on the uploaded content.")
@@ -242,7 +248,34 @@ for message in st.session_state.messages:
                     if i < len(message["sources"]):
                         st.markdown("---")
 
+
 # Chat input
+st.markdown(
+    """
+    <style>
+    /* Justera containern för att tillåta mer höjd */
+    .stChatInputContainer {
+        border: 1px solid #4a4a4a !important;
+        border-radius: 8px;
+        background-color: #1e2129 !important;
+        padding: 5px; /* Ger lite luft inuti ramen */
+    }
+
+    /* Tvinga textrutan (textarea) att vara högre */
+    .stChatInput textarea {
+        color: #ffffff !important;
+        min-height: 100px !important; /* Här styr du höjden - 100px är ungefär dubbel höjd */
+    }
+
+    /* Justera placeholder så den hamnar bra i den högre rutan */
+    .stChatInput textarea::placeholder {
+        color: #a0a0a0 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 if prompt := st.chat_input("Ask a question about HR policies..."):
     # Add user message to chat
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -337,12 +370,3 @@ if st.session_state.messages:
             use_container_width=True
         )
 
-# Footer
-st.markdown("---")
-col1, col2 = st.columns([3, 1])
-with col1:
-    st.markdown("**HR Policy Chatbot** | AI-powered document search")
-with col2:
-    st.markdown(f"v{__version__}")
-
-st.caption(f"© 2025 {__author__}")
