@@ -23,7 +23,7 @@ AI chatbot that:
 - Available 24/7 for all employees
 - Saves HR 10+ hours/month
 
-![Document Processing](screenshot_upload.png)
+![Document Processing](screenshot_sources.png)
 
 ## How It Works
 
