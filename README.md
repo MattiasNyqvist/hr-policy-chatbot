@@ -81,7 +81,7 @@ Employee Question → Vector Search → Relevant Context → Claude AI → Answe
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/hr-policy-chatbot.git
+git clone https://github.com/MattiasNyqvist/hr-policy-chatbot.git
 cd hr-policy-chatbot
 ```
 
