@@ -43,6 +43,9 @@ if 'chat_engine' not in st.session_state:
 if 'processed_files' not in st.session_state:
     st.session_state.processed_files = []
 
+if 'language' not in st.session_state:
+    st.session_state.language = "Swedish"
+
 # Title
 st.title("HR Policy Chatbot")
 st.markdown("Ask questions about HR policies and get instant answers with source citations.")
@@ -140,6 +143,18 @@ if doc_count > 0:
             st.sidebar.success("All documents cleared")
             st.rerun()
 
+# Language selection
+st.sidebar.markdown("---")
+st.sidebar.subheader("Language / Språk")
+
+language = st.sidebar.radio(
+    "Select response language:",
+    ["Swedish", "English"],
+    help="Choose the language for AI responses"
+)
+
+st.session_state.language = language
+
 # Main chat interface
 if doc_count == 0:
     st.info("Upload HR policy documents to get started. The chatbot will answer questions based on the uploaded content.")
@@ -179,7 +194,8 @@ if not st.session_state.messages:
                 with st.spinner("Searching policies..."):
                     answer, sources = st.session_state.chat_engine.answer_question(
                         suggestion,
-                        st.session_state.chat_history
+                        st.session_state.chat_history,
+                        language=st.session_state.language
                     )
                 
                 st.session_state.messages.append({
@@ -237,7 +253,8 @@ if prompt := st.chat_input("Ask a question about HR policies..."):
             try:
                 answer, sources = st.session_state.chat_engine.answer_question(
                     prompt,
-                    st.session_state.chat_history
+                    st.session_state.chat_history,
+                    language=st.session_state.language
                 )
                 
                 st.markdown(answer)
@@ -318,4 +335,4 @@ if st.session_state.messages:
 
 # Footer
 st.markdown("---")
-# st.markdown("**HR Policy Chatbot** | RAG-powered assistant using Claude AI") 
+st.markdown("**HR Policy Chatbot** | RAG-powered assistant using Claude AI")
