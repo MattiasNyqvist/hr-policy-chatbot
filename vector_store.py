@@ -1,5 +1,8 @@
 """
 Vector store module for storing and retrieving document embeddings using ChromaDB.
+
+Copyright (c) 2025 Mattias Nyqvist
+Licensed under the MIT License - see LICENSE file for details
 """
 
 import chromadb

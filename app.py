@@ -1,5 +1,8 @@
 """
-HR Policy Chatbot - RAG-powered assistant for HR policy questions.
+HR Policy Chatbot - RAG-powered assistant for HR policy questions
+
+Copyright (c) 2025 Mattias Nyqvist
+Licensed under the MIT License - see LICENSE file for details
 """
 
 import streamlit as st
@@ -335,4 +338,10 @@ if st.session_state.messages:
 
 # Footer
 st.markdown("---")
-st.markdown("**HR Policy Chatbot** | RAG-powered assistant using Claude AI")
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.markdown("**HR Policy Chatbot** | AI-powered document search")
+with col2:
+    st.markdown(f"v{__version__}")
+
+st.caption(f"© 2025 {__author__}")

@@ -1,5 +1,8 @@
 """
 Utility functions for exporting chat history and document summaries.
+
+Copyright (c) 2024 Mattias Nyqvist
+Licensed under the MIT License - see LICENSE file for details
 """
 
 from datetime import datetime

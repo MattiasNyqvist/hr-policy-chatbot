@@ -1,5 +1,8 @@
 """
 Document processing module for extracting text from PDF and DOCX files.
+
+Copyright (c) 2025 Mattias Nyqvist
+Licensed under the MIT License - see LICENSE file for details
 """
 
 import os

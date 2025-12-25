@@ -1,5 +1,8 @@
 # HR Policy Chatbot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+
 AI-powered chatbot that reads your HR policy documents and answers employee questions instantly with exact source citations. No more searching through PDFs - just ask in plain language.
 
 ![HR Policy Chatbot](screenshot_chat.png)
@@ -149,7 +152,7 @@ For 18 days: You need special approval since this exceeds the 15-day consecutive
 
 Switch between Swedish and English in sidebar. AI responds in selected language regardless of question language.
 
-**Question (English):** "How many vacation days do employees get?"  
+**Question (English):** "Hur många semesterdagar?"  
 **Response (Swedish):** "Heltidsanställda har rätt till 25 dagars betald semester per år..."
 
 ## Business Value
@@ -218,7 +221,9 @@ hr-policy-chatbot/
 ├── vector_store.py          # ChromaDB vector database
 ├── document_processor.py     # PDF/DOCX text extraction
 ├── export_utils.py          # Chat export (text/JSON)
+├── version.py               # Version information
 ├── requirements.txt         # Python dependencies
+├── LICENSE                  # MIT License
 ├── .env                     # API key (not in git)
 ├── .streamlit/
 │   └── config.toml         # UI theme configuration
@@ -357,14 +362,20 @@ Distribute to HR team - no Python installation needed.
 
 ## Development
 
-### Built with AI-Assisted Development
+Built using AI-assisted development methodology:
+- **Architecture & design:** Human-led problem analysis and solution design
+- **Implementation:** AI-assisted rapid prototyping with Claude AI
+- **Testing & validation:** Human-verified accuracy and performance
+- **Production deployment:** Human-managed configuration and delivery
 
-This project was developed in 7 days using Claude AI as a coding assistant, demonstrating:
+**Development timeline:**
+- Traditional approach: 3-4 weeks
+- AI-assisted approach: 7 days
+- Quality: Production-ready with comprehensive error handling
 
-- Modern AI-augmented development workflow
-- RAG architecture best practices
-- Production-ready error handling
-- Clean, maintainable code structure
+**Technologies:** Python, Streamlit, ChromaDB, Claude AI
+
+This demonstrates effective human-AI collaboration in modern software development - combining domain expertise with AI acceleration.
 
 ### Key Technical Learnings
 
