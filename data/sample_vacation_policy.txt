@@ -1,0 +1,170 @@
+VACATION POLICY - COMPLETE GUIDE
+
+1. ANNUAL LEAVE ENTITLEMENT
+
+Full-time employees (100%):
+- 25 days of paid vacation per year
+- Accrues from first day of employment
+
+Part-time employees:
+- Vacation days pro-rated based on working hours
+- 80% employment = 20 days per year (25 × 0.8)
+- 60% employment = 15 days per year (25 × 0.6)
+- 50% employment = 12.5 days per year (25 × 0.5)
+
+Examples:
+- Employee working 80% receives: 25 × 0.8 = 20 vacation days per year
+- Employee working 75% receives: 25 × 0.75 = 18.75 vacation days per year
+
+
+2. VACATION ACCRUAL
+
+Monthly accrual rate:
+- Full-time: 2.08 days per month (25 ÷ 12)
+- Part-time: 2.08 × employment percentage per month
+
+Accrual starts:
+- From first day of employment
+- Available for use after 3 months probation period
+
+Calculation examples:
+- Full-time employee after 6 months: 6 × 2.08 = 12.48 days
+- 80% employee after 6 months: 6 × 2.08 × 0.8 = 9.98 days
+- Full-time employee after 12 months: 12 × 2.08 = 24.96 ≈ 25 days
+
+Mid-year start date calculation:
+- Employee starting March 15, 2024 (full-time):
+  - March 15 - December 31 = 9.5 months
+  - Accrual: 9.5 × 2.08 = 19.76 days for 2024
+- Employee starting March 15, 2024 (80%):
+  - Accrual: 9.5 × 2.08 × 0.8 = 15.81 days for 2024
+
+
+3. PROBATION PERIOD
+
+All employees must complete 3 months employment before taking vacation.
+
+Start date examples:
+- Started January 1: Can take vacation from April 1
+- Started March 15: Can take vacation from June 15
+- Started July 1: Can take vacation from October 1
+
+Accrual during probation:
+- Vacation days continue to accrue during probation period
+- Days can be used immediately after probation ends
+
+
+4. VACATION REQUEST PROCESS
+
+Advance notice requirements:
+- Standard requests: Minimum 2 weeks advance notice
+- Extended vacation (10+ days): Minimum 4 weeks advance notice
+- Peak season (June-August): Minimum 6 weeks advance notice
+
+Manager approval:
+- All requests subject to manager approval
+- Based on business needs and team coverage
+- First-come, first-served for conflicting requests
+
+Maximum consecutive days:
+- Standard limit: 15 consecutive vacation days
+- Beyond 15 days requires special approval from department head
+- Special circumstances (e.g., international travel, family events) may be granted exception
+
+
+5. VACATION CARRYOVER
+
+Annual carryover limit:
+- Maximum 5 unused vacation days can be carried over to next year
+- Carryover days must be used by June 30 of the following year
+- Days not used by June 30 will be forfeited (no payout)
+
+Carryover examples:
+- Employee has 8 unused days at year-end: Can carry over 5, loses 3
+- Employee has 3 unused days at year-end: Can carry over all 3
+- Employee carries over 5 days but doesn't use them by June 30: Forfeits all 5
+
+Strategic planning:
+- Employees encouraged to plan vacation throughout the year
+- HR sends reminder in November about year-end balances
+- Final reminder sent in May about June 30 deadline
+
+
+6. VACATION CALCULATION FOR YEAR TRANSITION
+
+Example scenario:
+Employee started March 15, 2024, working 80%, used 3 days in 2024.
+
+2024 calculation:
+- Employment period: March 15 - December 31 (9.5 months)
+- Accrual: 9.5 × 2.08 × 0.8 = 15.81 days
+- Used: 3 days
+- Remaining: 15.81 - 3 = 12.81 days
+- Can carry over: 5 days (maximum)
+- Lost: 7.81 days
+
+2025 calculation (if planning vacation in July):
+- January 1 - June 30: 6 × 2.08 × 0.8 = 9.98 days
+- Carried over from 2024: 5 days
+- Total available by July 1, 2025: 9.98 + 5 = 14.98 days
+
+Note: If employee wants to take 18 days in July 2025:
+- Has 14.98 days available by July 1
+- Needs special approval for 3+ extra days (exceeds 15-day limit)
+- Could wait until end of July to accrue more days
+- By July 31: Additional 1 month = 2.08 × 0.8 = 1.66 days
+- Total by July 31: 14.98 + 1.66 = 16.64 days (still need approval for 18)
+
+
+7. VACATION PAYOUT
+
+General policy:
+- Unused vacation days are NOT paid out during active employment
+- No cash conversion of vacation days
+
+Upon termination:
+- All accrued and unused vacation days paid in final paycheck
+- Calculated at employee's current salary rate
+- Pro-rated for part-time employees
+- Includes any carried-over days (if used before June 30)
+
+Resignation notice:
+- Employees should provide 4 weeks notice
+- Remaining vacation can be taken during notice period (subject to approval)
+- Or paid out in final settlement
+
+
+8. SPECIAL CIRCUMSTANCES
+
+Illness during vacation:
+- If employee becomes sick during vacation (with medical certificate)
+- Sick days replace vacation days for that period
+- Unused vacation days returned to balance
+
+Public holidays during vacation:
+- Public holidays do not count as vacation days
+- Example: 5-day vacation including 1 public holiday = only 4 vacation days used
+
+Parental leave:
+- Vacation accrual continues during paid parental leave
+- No accrual during unpaid parental leave
+- Returning employees can use accrued vacation immediately
+
+
+9. NEGATIVE VACATION BALANCE
+
+Advance vacation use:
+- Employees may request to use vacation days not yet accrued
+- Requires manager and HR approval
+- Maximum advance: 5 days
+- If employment terminates with negative balance, amount deducted from final pay
+
+
+10. PART-YEAR EMPLOYMENT
+
+Final year calculation:
+- Employee leaving mid-year: Vacation pro-rated to termination date
+- Example: Full-time employee leaving June 30
+  - Entitled to: 6 months × 2.08 = 12.48 days
+  - If used 15 days: Owes company 2.52 days (deducted from final pay)
+  - If used 10 days: Receives payout for 2.48 days
