@@ -152,7 +152,7 @@ For 18 days: You need special approval since this exceeds the 15-day consecutive
 
 Switch between Swedish and English in sidebar. AI responds in selected language regardless of question language.
 
-**Question (English):** "Hur många semesterdagar?"  
+**Question (English):** "How many semester days?"  
 **Response (Swedish):** "Heltidsanställda har rätt till 25 dagars betald semester per år..."
 
 ## Business Value
@@ -428,8 +428,6 @@ Free to use, modify, and distribute. Attribution appreciated but not required.
 ## Author
 
 **Mattias Nyqvist**  
-AI Transformation Consultant  
-Specializing in Document Processing & Automation
 
 - GitHub: [@MattiasNyqvist](https://github.com/MattiasNyqvist)
 - LinkedIn: [Mattias Nyqvist](https://linkedin.com/in/mattias-nyqvist)
@@ -441,7 +439,6 @@ Specializing in Document Processing & Automation
 - **Sentence Transformers** - Open-source embeddings
 - **Streamlit** - Rapid web development
 
-Built as part of AI Transformation journey - transitioning from Finance Manager to AI Consultant.
 
 ---
 

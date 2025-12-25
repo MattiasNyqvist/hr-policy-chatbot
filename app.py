@@ -14,6 +14,7 @@ from document_processor import process_document
 from vector_store import VectorStore
 from chat_engine import ChatEngine
 from export_utils import export_chat_to_text, export_chat_to_json
+from version import __version__, __author__, __license__
 
 # Load environment variables
 load_dotenv()
