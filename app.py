@@ -253,7 +253,7 @@ for message in st.session_state.messages:
 st.markdown(
     """
     <style>
-    /* Justera containern för att tillåta mer höjd */
+    /* Adjust container to allow more height */
     .stChatInputContainer {
         border: 1px solid #4a4a4a !important;
         border-radius: 8px;
@@ -261,13 +261,13 @@ st.markdown(
         padding: 5px; /* Ger lite luft inuti ramen */
     }
 
-    /* Tvinga textrutan (textarea) att vara högre */
+    /* Force textarea to be taller */
     .stChatInput textarea {
         color: #ffffff !important;
-        min-height: 100px !important; /* Här styr du höjden - 100px är ungefär dubbel höjd */
+        min-height: 100px !important; 
     }
 
-    /* Justera placeholder så den hamnar bra i den högre rutan */
+    /* Adjust placeholder position in taller input*/
     .stChatInput textarea::placeholder {
         color: #a0a0a0 !important;
     }
